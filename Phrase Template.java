@@ -24,7 +24,7 @@ public class Phrase
             else if(n == 1)
                 index += i;
             else
-                index += i + str.length();
+                index += i + 1;
             n--;
         }
         return index;
